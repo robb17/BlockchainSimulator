@@ -1,0 +1,44 @@
+//  ---------------------------------------------------------------------------
+//  Supporting file that gives sample inputs					  blockchain.in
+// 	Type: text
+// 	Tab-width: 4
+//  Author: Charles Robert Brunstad
+//	Date created: 12/11/18
+// ----------------------------------------------------------------------------
+
+./blockchain 10 100 .9 .05 .1 1543782199 	// mirrors results given in sample.sh
+
+./blockchain
+./blockchain 129a 1 .9 .05 .1 1
+./blockchain 1 1 .9 .05 .1 1
+./blockchain 0 1 .9 .05 .1 1
+./blockchain 1 0 .9 .05 .1 1
+./blockchain 1 -1 .9 .05 .1 1
+./blockchain 1 20 -1 1.5 .1 1
+./blockchain 1 20 -1 .5 .1 1
+./blockchain 1 20 3 -2.8 .1 1
+./blockchain 1 5.5 .9 .05 .1 1
+./blockchain 1 1 .9 .05 1.1 1
+./blockchain 1 1 .9 .9 .1 1
+./blockchain 1 20 1 0 .1 1
+./blockchain 1 20 0 1 .1 1
+./blockchain 1 20 0 0 .1 1
+
+./blockchain 10 1000 0.99 0 0.01 2			// Nakamoto agents achieve consensus with decent "forward progress"
+./blockchain 10 1000 0 0.99 0.01 3			// Fickle agents can make "forward progress" very difficult!
+./blockchain 10 1000 0 0 0.01 3				// Crowd agents can make "forward progress" even more difficult
+
+./blockchain 100 1000 0.5 0.3 0.1 3
+./blockchain 100 1000 0.99 0.00 0.1 4		// More blockchains are in agreement when there are more Nakamoto agents
+
+./blockchain 3 100 0.8 0.2 0.9 7			// High probability of extension
+./blockchain 10 100 0.8 0.2 1 7				// Only extension, no consensus
+
+./blockchain 100 100000 1 0 0.0001 3		// More closely approximate the bitcoin protocol
+
+./blockchain 10 10000000 0.8 0.1 0.000001 9	// Stress test, high number of rounds
+./blockchain 10000 1000 0.9 0.0 0.01 10		// Stress test, high number of agents
+
+./blockchain 100 1 .9 .1 1 0
+
+./blockchain 5 50 0.3 0.3 0.5 15

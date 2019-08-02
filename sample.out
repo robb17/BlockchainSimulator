@@ -1,0 +1,354 @@
+
+---------------------------------------------------------------
+	Ima Goetting Closeau
+	CPSC 427/527
+	Tue Dec  4 2018	15:01:51
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1543782199
+   numAgents:     10
+   maxRounds:    100
+     probNak:    0.9
+  probFickle:   0.05
+  probExtend:    0.1
+
+Population statistics:
+      numNak:      8
+   numFickle:      0
+    numCrowd:      2
+     numOnes:      0
+  probExtend:    0.1
+
+Inventory: 1 active blockchain(s):
+  10 copies of	[0,1] 
+
+Starting simulation with probExtend = 0.1
+  extend(0)
+  New blockchain: [0,1] [1,18] 
+Inventory: 2 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  9 copies of	[0,1] 
+  sendMessage(9, 5)
+  sendMessage(5, 6)
+  sendMessage(3, 2)
+  sendMessage(7, 6)
+  sendMessage(4, 6)
+  sendMessage(6, 9)
+  extend(3)
+  New blockchain: [0,1] [1,43] 
+Inventory: 3 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  1 copies of	[0,1] [1,43] 
+  8 copies of	[0,1] 
+  sendMessage(3, 7)
+Inventory: 3 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  7 copies of	[0,1] 
+  sendMessage(1, 0)
+  sendMessage(0, 5)
+  sendMessage(0, 5)
+Inventory: 3 active blockchain(s):
+  2 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  6 copies of	[0,1] 
+  sendMessage(3, 4)
+  sendMessage(6, 0)
+  sendMessage(8, 5)
+  sendMessage(6, 9)
+  sendMessage(4, 8)
+  sendMessage(2, 0)
+  sendMessage(8, 5)
+Inventory: 3 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  7 copies of	[0,1] 
+  sendMessage(9, 0)
+  sendMessage(4, 7)
+  sendMessage(5, 4)
+  extend(5)
+  New blockchain: [0,1] [1,92] 
+Inventory: 4 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  1 copies of	[0,1] [1,92] 
+  6 copies of	[0,1] 
+  sendMessage(1, 9)
+  sendMessage(5, 1)
+Inventory: 4 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  5 copies of	[0,1] 
+  extend(4)
+  New blockchain: [0,1] [1,105] 
+Inventory: 5 active blockchain(s):
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  1 copies of	[0,1] [1,105] 
+  4 copies of	[0,1] 
+  extend(4)
+  New blockchain: [0,1] [1,105] [2,112] 
+Inventory: 5 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  4 copies of	[0,1] 
+  sendMessage(5, 6)
+Inventory: 5 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  3 copies of	[0,1] 
+  sendMessage(7, 4)
+  sendMessage(3, 1)
+  sendMessage(4, 2)
+Inventory: 5 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  2 copies of	[0,1] 
+  sendMessage(7, 2)
+  sendMessage(3, 5)
+  sendMessage(9, 0)
+  sendMessage(2, 9)
+Inventory: 5 active blockchain(s):
+  3 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  1 copies of	[0,1] 
+  sendMessage(7, 9)
+  extend(4)
+  New blockchain: [0,1] [1,105] [2,112] [3,146] 
+Inventory: 6 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  1 copies of	[0,1] 
+  sendMessage(4, 8)
+Inventory: 5 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  extend(4)
+  New blockchain: [0,1] [1,105] [2,112] [3,146] [4,156] 
+Inventory: 6 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  3 copies of	[0,1] [1,92] 
+  sendMessage(7, 9)
+  sendMessage(0, 1)
+  sendMessage(6, 1)
+  sendMessage(4, 1)
+Inventory: 6 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(7, 4)
+Inventory: 6 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  3 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(8, 4)
+  sendMessage(1, 3)
+Inventory: 6 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  2 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(8, 1)
+  extend(2)
+  New blockchain: [0,1] [1,105] [2,112] [3,187] 
+Inventory: 7 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] 
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(9, 5)
+  sendMessage(4, 8)
+  sendMessage(2, 3)
+  sendMessage(5, 6)
+  sendMessage(9, 4)
+  extend(2)
+  New blockchain: [0,1] [1,105] [2,112] [3,187] [4,209] 
+Inventory: 7 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] 
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(3, 8)
+Inventory: 6 active blockchain(s):
+  3 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  2 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(2, 1)
+  sendMessage(5, 3)
+  sendMessage(3, 2)
+  sendMessage(8, 7)
+Inventory: 6 active blockchain(s):
+  4 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,105] [2,112] 
+  1 copies of	[0,1] [1,18] 
+  1 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(5, 4)
+  sendMessage(0, 6)
+  sendMessage(2, 1)
+  sendMessage(8, 2)
+  sendMessage(1, 8)
+  sendMessage(4, 5)
+  sendMessage(1, 9)
+Inventory: 5 active blockchain(s):
+  5 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,18] 
+  1 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(5, 6)
+  sendMessage(4, 1)
+  sendMessage(0, 6)
+  sendMessage(4, 7)
+  sendMessage(3, 4)
+  sendMessage(7, 0)
+Inventory: 4 active blockchain(s):
+  6 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(4, 3)
+  extend(4)
+  New blockchain: [0,1] [1,43] [2,273] 
+Inventory: 4 active blockchain(s):
+  6 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] 
+  2 copies of	[0,1] [1,92] 
+  sendMessage(7, 6)
+Inventory: 4 active blockchain(s):
+  7 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(6, 2)
+  extend(7)
+  New blockchain: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Inventory: 5 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  6 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(8, 9)
+  extend(4)
+  New blockchain: [0,1] [1,43] [2,273] [3,296] 
+Inventory: 5 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  6 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  extend(3)
+  New blockchain: [0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+Inventory: 6 active blockchain(s):
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  5 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(0, 3)
+  sendMessage(7, 1)
+Inventory: 6 active blockchain(s):
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  4 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,105] [2,112] [3,187] [4,209] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(8, 6)
+  sendMessage(2, 4)
+  sendMessage(6, 8)
+  sendMessage(1, 3)
+  sendMessage(0, 1)
+  sendMessage(3, 4)
+  sendMessage(1, 2)
+Inventory: 5 active blockchain(s):
+  3 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  4 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(7, 0)
+Inventory: 5 active blockchain(s):
+  4 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  3 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(4, 5)
+  sendMessage(7, 4)
+  sendMessage(4, 7)
+  sendMessage(0, 8)
+Inventory: 5 active blockchain(s):
+  5 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  2 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(2, 3)
+  sendMessage(9, 3)
+  sendMessage(5, 6)
+  sendMessage(3, 8)
+  sendMessage(2, 9)
+Inventory: 5 active blockchain(s):
+  6 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+  1 copies of	[0,1] [1,105] [2,112] [3,146] [4,156] 
+  1 copies of	[0,1] [1,43] [2,273] [3,296] 
+  1 copies of	[0,1] [1,92] 
+  sendMessage(6, 4)
+Current blockchain choices after 100 rounds:
+Agent 0 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Agent 1 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Agent 2 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Agent 3 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,303] 
+Agent 4 choice: [0,1] [1,43] [2,273] [3,296] 
+Agent 5 choice: [0,1] [1,92] 
+Agent 6 choice: [0,1] [1,105] [2,112] [3,146] [4,156] 
+Agent 7 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Agent 8 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+Agent 9 choice: [0,1] [1,105] [2,112] [3,146] [4,156] [5,286] 
+
+
+---------------------------------------------------------------
+Normal termination.
