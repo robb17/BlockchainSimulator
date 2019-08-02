@@ -1,11 +1,17 @@
 //  ---------------------------------------------------------------------------
-//  Supporting file that details the contents of this ps8 submission	  notes
-// 	Type: text
-// 	Tab-width: 4
-//  Author: Charles Robert Brunstad
+//  Author: Charles Robert Brunstad					readme
 //	Date created: 12/10/18
 // ----------------------------------------------------------------------------
 
+A simulator for a number of agents attempting to reach consensus. The agents have
+identities as follows:
+	- fickle
+		- Whenever a fickle agent receives a signal, its chice is updated to
+			match that associated with the signal.
+	- follow-the-crowd
+		- This agent changes its choice to match that of an incoming message
+			if and only if said agent's most recent message was the exact
+			same.
 Included:
 	- main.cpp
 		- main source file
@@ -79,10 +85,6 @@ Comments:
 	number representable by a signed int.
 - Stringstreams are used owing to their ease of implementation and the ability
 	to use standard status functions.
-- The value of numFickle is not allowed to be 1 because the window given in ps5
-	[0,1) excludes it.
-- The variable numOnes is not outputted because it is not relevant to this
-	assignment.
 - With the exception of the first recorded output, debugging messages have been
 	omitted so that the experience of reading blockchain.out is a bit
 	more pleasant.
