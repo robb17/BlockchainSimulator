@@ -1,12 +1,8 @@
-//  ---------------------------------------------------------------------------
-//  Author: Charles Robert Brunstad					readme
-//	Date created: 12/10/18
-// ----------------------------------------------------------------------------
-
 A simulator for a number of agents attempting to reach consensus. The agents have
 identities as follows:
 - fickle. Whenever a fickle agent receives a signal, its chice is updated to match that associated with the signal.
 - follow-the-crowd. This agent changes its choice to match that of an incoming message if and only if said agent's most recent message was the exact same.
+
 Included:
 	- main.cpp
 		- main source file
