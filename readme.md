@@ -54,12 +54,6 @@ Usage:
 - [seed], an optional argument, seeds the random number generator.
 
 Comments:
-- Inputs for probNak, probFickle, and probExtend must be within the window
-	discussed above.
-- Simulations can be run only on n agents, where n is less than the largest
-	number representable by a signed int.
-- Stringstreams are used owing to their ease of implementation and the ability
-	to use standard status functions.
-- With the exception of the first recorded output, debugging messages have been
-	omitted so that the experience of reading blockchain.out is a bit
-	more pleasant.
+- Inputs for probNak, probFickle, and probExtend must be within the window discussed above.
+- Simulations can be run only on n agents, where n is less than the largest number representable by a signed int.
+- With the exception of the first recorded output, debugging messages have been omitted so that the experience of reading blockchain.out is a bit more pleasant.
